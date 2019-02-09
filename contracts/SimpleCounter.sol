@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 /**
  * A simple contract that let's users increase a number by one with each call.
- * It can only be increased by 
+ * It cannot be increased from the same address in a row.
  */
 contract SimpleCounter {
     
