@@ -6,7 +6,7 @@ pragma solidity ^0.5.0;
  */
 contract SimpleCounter {
     
-    uint counter = 0;
+    uint public counter = 0;
     
     address lastUser; // address used last time to increment the counter
     
