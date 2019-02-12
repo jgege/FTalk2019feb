@@ -13,6 +13,6 @@ contract SimpleCounter {
     function increase()
     public
     {
-        counter = counter + 1; // increament it by 1
+        counter = counter + 1; // increment it by 1
     }
 }
